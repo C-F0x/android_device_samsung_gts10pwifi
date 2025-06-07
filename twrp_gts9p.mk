@@ -12,18 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from gts9p device
-$(call inherit-product, device/samsung/gts9p/device.mk)
+# Inherit from gts10pwifi device
+$(call inherit-product, device/samsung/gts10pwifi/device.mk)
 
-PRODUCT_DEVICE := gts9p
-PRODUCT_NAME := twrp_gts9p
+PRODUCT_DEVICE := gts10pwifi
+PRODUCT_NAME := twrp_gts10pwifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-X816B
+PRODUCT_MODEL := SM-X820
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="gts9pxxx-user 13 TP1A.220624.014 X710XXS1BWL7 release-keys"
+    PRIVATE_BUILD_DESC="gts10pwifixx-user 15 AP3A.240905.015.A2 X820XXU3BYE1 release-keys"
 
-BUILD_FINGERPRINT := samsung/gts9pxxx/gts9p:13/TP1A.220624.014/X710XXS1BWL7:user/release-keys
+BUILD_FINGERPRINT := samsung/gts10pwifixx/gts10pwifi:15/AP3A.240905.015.A2/X820XXU3BYE1:user/release-keys
