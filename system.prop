@@ -1,9 +1,0 @@
-ro.display.series=Galaxy Tab S10 Plus
-ro.product.board=gts10pwifi
-ro.board.platform=mt6989
-sys.usb.controller=a600000.dwc3
-ro.boot.dynamic_partitions=true
-ro.boot.bootdevice=1d84000.ufshc
-ro.secure=0
-ro.debuggable=1
-persist.service.adb.enable=1
